@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{D12BE45B-65D2-4BDE-AA04-B0688EA21CB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{CDCC0172-BFE5-4B9E-97B4-83399FB906DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{CDCC0172-BFE5-4B9E-97B4-83399FB906DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{12648845-37AC-40B8-A0DD-02E68BBE54C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CDCC0172-BFE5-4B9E-97B4-83399FB906DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDCC0172-BFE5-4B9E-97B4-83399FB906DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDCC0172-BFE5-4B9E-97B4-83399FB906DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12648845-37AC-40B8-A0DD-02E68BBE54C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12648845-37AC-40B8-A0DD-02E68BBE54C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12648845-37AC-40B8-A0DD-02E68BBE54C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12648845-37AC-40B8-A0DD-02E68BBE54C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
